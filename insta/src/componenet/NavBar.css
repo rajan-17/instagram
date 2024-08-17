@@ -1,0 +1,28 @@
+.navbar{
+    height: 70px !important;
+}
+.searchbox{
+    width: 30vw;
+    padding: 5px;
+}
+.searchicon{
+    display: none;
+ }
+
+
+ .dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: -155px;
+ }
+
+@media only screen and (max-width : 450px) {
+ .searchbox{
+    display: none;
+ }
+ .navbar-brand{
+    padding-left: 5px !important;
+ }
+.searchicon{
+    display: block;
+}
+}

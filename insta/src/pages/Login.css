@@ -1,0 +1,62 @@
+.login-container{
+    margin-top: 6rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.input-bg{
+    background-color: #f3f3f3f3;
+    color: #bdb5db;
+    font-size: 0.9rem;
+    height: 2.9rem;
+
+}
+
+.custum-btn
+{
+    padding: 0.6rem;
+    border-radius: 4px;
+}
+
+.custum-btn-blue{
+    border : 1px solid #b3e0ff;
+    background-color: #b3e0ff;
+    color: #fff;
+}
+.custum-btn-white{
+    border : 1px solid #dee5e9;
+    background-color: #dee5e9;
+    color: #000;
+    padding: 15px;
+}
+
+.socialdesktop{
+    display: block;
+}
+.socialmoblie{
+    display: none;
+}
+
+@media only screen and (max-width : 450px) {
+    .socialmoblie{
+        display: block;
+    }
+    .socialdesktop{
+        display: none;
+    }   
+    
+    .login-container{
+        margin-top: 2.5rem;
+    }
+    .card-body{
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+    .card{
+        border: none !important;
+    }
+
+    .shadow{
+        box-shadow: none !important;
+    }
+}
